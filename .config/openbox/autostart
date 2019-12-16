@@ -1,0 +1,8 @@
+setxkbmap br
+
+light -I
+nitrogen --restore &
+nm-applet &
+blueman-applet &
+polybar -r --config=/home/fschnee/.config/polybar/fschnee.polyconf main &
+picom -b --config ~/.config/picom/picom.conf &

@@ -1,0 +1,9 @@
+[user]
+	email = fbdsschaun@inf.ufpel.edu.br
+	name = fschnee
+
+[url "https://aur.archlinux.org/"]
+   	insteadOf = aur:
+
+[url "https://github.com/"]
+   	insteadOf = gh:
