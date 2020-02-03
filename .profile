@@ -16,8 +16,7 @@ export WINEPREFIX="$XDG_DATA_HOME"/wine
 export COMPOSER_HOME="$XDG_DATA_HOME"/composer
 
 ## PATH related stuff
-PATH="$PATH":"$HOME"/bin
-PATH="$PATH":"$HOME"/.local/bin
-PATH="$PATH":"$CARGO_HOME"/bin
-PATH="$PATH":"$COMPOSER_HOME"/vendor/bin
-export PATH
+export PATH="$PATH":"$HOME"/bin
+export PATH="$PATH":"$HOME"/.local/bin
+export PATH="$PATH":"$CARGO_HOME"/bin
+export PATH="$PATH":"$COMPOSER_HOME"/vendor/bin
